@@ -10,6 +10,7 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return const MaterialApp(
+      debugShowCheckedModeBanner: false,
       home: Scaffold(
         body: Center(
           child: Column(
@@ -22,7 +23,7 @@ class MyApp extends StatelessWidget {
               SizedBox(height: 20),
               Text(
                 'NTEZIRIZAZA Erneste',
-                style: TextStyle(fontSize: 24, color: Colors.blueGrey),
+                style: TextStyle(fontSize: 24),
               ),
             ],
           ),
